@@ -250,11 +250,3 @@ Projekt jest rozwijany jako projekt badawczo-inżynierski związany z:
 - transferem rozwiązań z symulacji do rzeczywistości.
 
 Projekt jest planowany również jako materiał do udziału w konkursach i olimpiadach związanych z techniką, mechatroniką i innowacjami.
-
----
-
-## Autor
-
-**Mateusz Wojtasik**
-
-Projekt realizowany samodzielnie z wykorzystaniem dokumentacji technicznej, eksperymentów oraz iteracyjnego rozwoju prototypu.
