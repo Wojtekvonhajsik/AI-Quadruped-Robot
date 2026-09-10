@@ -199,29 +199,58 @@ Przykładowe mierzone parametry:
 ```text
 quadruped-rl/
 │
-├── README.md
-│
 ├── docs/
-│   ├── cele.md
-│   ├── koncepcja.md
-│   ├── metodologia.md
-│   └── eksperymenty.md
 │
 ├── simulation/
+│   ├── python/
+│   │   ├── ik/
+│   │   │   └── tests/
+│   │   └── visualization/
+│   │
 │   └── unity/
 │
 ├── robot/
 │   ├── cad/
+│   │   ├── body/
+│   │   ├── legs/
+│   │   ├── joints/
+│   │   └── assemblies/
+│   │
 │   ├── electronics/
+│   │   ├── schematics/
+│   │   └── wiring/
+│   │
 │   └── firmware/
+│       ├── servo_control/
+│       ├── sensors/
+│       └── main/
 │
 ├── ai/
+│   ├── environments/
+│   │   ├── standing/
+│   │   ├── walking/
+│   │   └── obstacles/
+│   │
 │   ├── training/
-│   └── models/
+│   │   └── configs/
+│   │
+│   ├── models/
+│   └── utils/
 │
 ├── experiments/
+│   ├── 001_ik/
+│   ├── 002_standing/
+│   ├── 003_walking/
+│   ├── 004_obstacles/
+│   ├── 005_randomization/
+│   └── 006_sim_to_real/
 │
 └── results/
+    ├── graphs/
+    ├── tables/
+    ├── videos/
+    ├── measurements/
+    └── models/
 ```
 
 ---
